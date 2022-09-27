@@ -175,3 +175,25 @@
   }
 
 }
+
+/*esercizio 13*/
+.ex-13-button:hover .ex-13-top-white{
+  animation-name: move-top-complete;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes move-top-complete{
+  
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+  animation-name: move-bottom-complete;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes move-bottom-complete {
+  
+}
+
