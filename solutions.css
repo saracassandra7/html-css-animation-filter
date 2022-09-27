@@ -35,3 +35,84 @@
 }
 
 /*esercizio 5*/
+.ex-5-square{
+  transition: all 1.5s;
+}
+
+.ex-5-square:hover{
+  transform: scale(2);
+}
+
+.ex-5-square:active{
+  transform: scale(0.5);
+}
+
+/*esercizio 6*/
+.ex-6-img:hover{
+  filter: grayscale(1);
+}
+
+/*esercizio 7*/
+.ex-7-img{
+  transition: all 2s;
+}
+
+.ex-7-img:hover{
+  filter: grayscale(1) sepia(50%);
+}
+
+/*esercizio 8*/
+.ex-8-img{
+  transition: all 2s;
+}
+
+.ex-8-img:hover{
+  filter: grayscale(1) sepia(60%);
+  border-radius: 20px;
+}
+
+/*esercizio 9*/
+.ex-9-img{
+  transition: all 2s;
+}
+
+.ex-9-img:hover{
+  filter: grayscale(1) sepia(60%);
+  border-radius: 20px;
+  transform: scale(1.5);
+}
+
+/*esercizio 10*/
+.ex-10-icon{
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  0%{
+    transform: rotate(1turn);
+  }
+}
+
+/*esercizio 11*/
+.ex-11-icon:hover{
+  animation-name: roll;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+
+@keyframes roll{
+  0%{
+    transform: rotate(0);
+  }
+
+  75%{
+    transform: rotate(270deg);
+  }
+
+  100%{
+    transform: rotate(0);
+  }
+}
